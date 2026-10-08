@@ -79,5 +79,4 @@ Data persistence is ensured by using Docker volumes. If the MySQL container is d
 
 Feel free to explore and modify the Dockerfiles to enhance your understanding of containerization and deployment! Happy coding! 🚀
 =======
-# Student-teacher-portal
->>>>>>> f6b351a6519a40e30d5740cd8d88a77c9267966b
+
