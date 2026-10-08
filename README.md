@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Three-Tier Application Deployment using Docker & Docker Compose
 [![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
 [![YouTube](https://img.shields.io/badge/Video%20On%20-YouTube-red.svg)](https://www.youtube.com/@aman-pathak)
@@ -77,3 +78,6 @@ Before you begin, ensure that you have the following installed:
 Data persistence is ensured by using Docker volumes. If the MySQL container is deleted, data remains available and is automatically added to a new Docker container by providing the same Docker volume.
 
 Feel free to explore and modify the Dockerfiles to enhance your understanding of containerization and deployment! Happy coding! 🚀
+=======
+# Student-teacher-portal
+>>>>>>> f6b351a6519a40e30d5740cd8d88a77c9267966b
