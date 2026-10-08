@@ -6,7 +6,6 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "GitHub",
-      href: "https://github.com/AmanPathak-DevOps/",
       svg: (
         <path
           fill="currentColor"
@@ -34,7 +33,6 @@ export default function Footer() {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/aman-devops/",
       svg: (
         <path
           fill="currentColor"
@@ -48,7 +46,6 @@ export default function Footer() {
     },
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@aman-pathak",
       svg: (
         <path
           fill="currentColor"
@@ -60,7 +57,6 @@ export default function Footer() {
     },
     {
       name: "Medium",
-      href: "https://medium.com/@amanpathakdevops",
       svg: (
         <path
           fill="currentColor"
@@ -76,15 +72,7 @@ export default function Footer() {
     <Box as="footer" mt="auto" py={6} bg="white" _dark={{ bg: "gray.800" }}>
       <HStack spacing={6} maxW="6xl" mx="auto" px={4} justify="space-between">
         <Text fontSize="sm">
-          © {new Date().getFullYear()} Student–Teacher Portal • Built by{" "}
-          <Link
-            href="https://github.com/AmanPathak-DevOps/"
-            isExternal
-            color="blue.500"
-            fontWeight="semibold"
-          >
-            Aman Pathak
-          </Link>
+          © {new Date().getFullYear()} Student–Teacher Portal • 💙{" "}
         </Text>
         <HStack spacing={3}>
           {socialLinks.map(({ name, href, svg }) => (
