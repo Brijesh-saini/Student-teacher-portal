@@ -1,7 +1,8 @@
 <<<<<<< HEAD
 # Three-Tier Application Deployment using Docker & Docker Compose
 
-![Architecture](assets/Infra.gif)
+<img width="1310" height="686" alt="image" src="https://github.com/user-attachments/assets/167c767e-0534-4835-8fbd-39957c554201" />
+
 
 This repository demonstrates the deployment of a three-tier application using Docker, focusing on individual Dockerfiles for each component. The application comprises a MySQL database, a Node.js backend, and a React.js frontend.
 
